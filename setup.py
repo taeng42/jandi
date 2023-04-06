@@ -2,16 +2,16 @@ from setuptools import setup
 
 
 setup(
-		name				= "ft_apy",
+		name				= "jandi",
 		version			 = "0.0.1",
-		description		 = "42api Library for Python3",
+		description		 = "Jandi webhook Library for Python3",
 		url				 = "https://github.com/taeng42/ft_apy.git",
 		author			  = "Hyundong",
 		author_email		= "hyundong@42seoul.kr",
 		license			 = "mit",
 		#packages			= find_packages(exclude = []),
 		install_requires	= ["setuptools", "wheel", "urllib3"],
-		packages			= ["ft_apy"],
+		packages			= ["jandi"],
 		zip_safe			= False,
 		python_requires	 = '>=3',
 		classifiers		 = [
