@@ -1,6 +1,11 @@
 # jandi
 
 ```
+$ pip install git+https://github.com/taeng42/jandi
+```
+
+
+```
 from jandi import *
 
 if __name__ == "__main__":
